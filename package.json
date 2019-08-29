@@ -1,0 +1,25 @@
+{
+  "name": "tokenhomeproject",
+  "version": "1.0.0",
+  "description": "token",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akinba/tokenHomeProject.git"
+  },
+  "keywords": [
+    "javascripts",
+    "nodejs",
+    "express",
+    "tokenApi"
+  ],
+  "author": "BSA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akinba/tokenHomeProject/issues"
+  },
+  "homepage": "https://github.com/akinba/tokenHomeProject#readme"
+}
