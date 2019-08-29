@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+    </head>
+    <body>
+        <div>QRCode</div>
+        <div>
+            
+        </div>
+        
+        <div id="qrcode"></div>
+        <form action="/onayla" method="POST">
+            <input type="text" name="qr" value="<%- body.QRdata %>">
+            <input type="submit" value="Onayla">
+        </form>
+    <script type="text/javascript">
+        new QRCode(document.getElementById("qrcode"), "<%- body.QRdata %>");
+    </script>
+    </body>
+</html>
